@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Checkbox and Text Color Guided Exercises"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"/>
+
+    <CheckBox
+        android:id="@+id/chkOne"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="One"
+        android:layout_below="@id/tvTitle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"/>
+
+    <CheckBox
+        android:id="@+id/chkTwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Two"
+        android:layout_below="@id/chkOne"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"/>
+
+    <CheckBox
+        android:id="@+id/chkThree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Three"
+        android:layout_below="@id/chkTwo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"/>
+
+    <CheckBox
+        android:id="@+id/chkFour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Four"
+        android:layout_below="@id/chkThree"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"/>
+
+    <Button
+        android:id="@+id/btnClickGE6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click"
+        android:layout_below="@id/chkFour"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:id="@+id/tvResultGE6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="18sp"
+        android:layout_below="@id/btnClickGE6"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:visibility="invisible"/>
+
+</RelativeLayout>
